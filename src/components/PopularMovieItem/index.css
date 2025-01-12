@@ -1,0 +1,27 @@
+.movie-list-item{
+    text-align: center;
+    margin: 30px;
+    /* width: 20%; */
+    flex-shrink: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.movie-item-image{
+    max-height: 250px;
+    height: 100%;
+    min-height: 150px;
+    max-width: 220px;
+    width: 100%;
+    min-width: 130px;
+}
+
+.movie-item-title{
+    color: white;
+    font-size: 12px;
+}
+
+.movie-item-rating{
+    color: white;
+    font-size: 14px;
+}

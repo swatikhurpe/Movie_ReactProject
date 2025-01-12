@@ -1,0 +1,14 @@
+.home-container{
+    background-color: rgb(23, 23, 23);
+    background-size: cover;
+    /* margin: 0px; */
+    width: 100%;
+    padding-top: 80px;
+}
+
+.popular-movie-items-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

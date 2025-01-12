@@ -1,0 +1,149 @@
+.movie-info-container{
+    background-color: rgb(23, 23, 23);
+    background-size: cover;
+    /* margin: 0px; */
+    width: 100%;
+    padding-top: 80px;
+}
+
+.movie-info-content-container{
+    width: 50%;
+}
+
+.movie-info-details-container{
+    background-color: rgb(13, 13, 21);
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.movie-info-upper-content-container{
+    display: flex;
+    align-items: center;
+}
+
+.movie-details-poster-image{
+    height: 160px;
+    width: 140px;
+    padding: 10px;
+}
+
+.movie-info-heading{
+    color: white;
+}
+
+.movie-info-rating{
+    color: rgb(87, 87, 181);
+    padding-top: 10px;
+}
+
+.runtime-genre-container{
+    display: flex;
+}
+
+.runtime-container{
+    border: 2px solid gray;
+    padding: 10px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.genre-container{
+    display: flex;
+    margin-top: 16px;
+}
+
+.genre-item{
+    color: rgb(176, 154, 238);
+    margin-right: 5px;
+}
+
+.release-date-info{
+    color: white;
+    margin-top: 10px;
+}
+
+.overview-heading{
+    color: white;
+    padding: 10px;
+}
+
+.overview-text{
+    color: white;
+    padding: 10px;
+}
+
+.movie-backdrop-image{
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+@media screen and (max-width:768px){
+    .movie-info-details-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie-backdrop-image{
+        width: 100%;
+    }
+    .movie-info-content-container{
+        width: 100%;
+    }
+    .movie-info-upper-content-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie-details-poster-image{
+        align-self: center;
+    }
+    .details-container{
+        text-align: center;
+    }
+    .runtime-genre-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .runtime-container{
+       width: 20%;
+    }
+    .release-date-info{
+        padding: 10px;
+    }
+}
+
+.cast-heading{
+    color: white;
+    padding: 10px;
+}
+
+.cast-details-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cast-item{
+    margin: 5px;
+    /* width: 30%; */
+}
+
+.cast-profile-image{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+.cast-name{
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-width:500px){
+    .cast-details-container{
+        justify-content: center;
+    }
+}
